@@ -1,8 +1,8 @@
 module.exports = {
     app: {
         prefix: "!",
-        token: "OTk0NjQ2ODMyMzY4MDcwNzY2.Gn9Y9D.6n8dq5Ci7XGrU--uaG6eBhEHt0OQ4h8CYs58ec",
-        // playing: "✝ SHIRO ✝",
+        token: "OTk0NjQ2ODMyMzY4MDcwNzY2.G53qwi.LdrlxCPkVYkaM-KMdR_SPArx8oeBzgSNqx22Pc",
+        playing: "✝ SHIRO ✝",
     },
 
     opt: {
