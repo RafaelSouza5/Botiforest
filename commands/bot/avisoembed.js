@@ -7,7 +7,7 @@ module.exports = {
     run: async(client, message, args) => {
 
         if (!message.member.permissions.has("ADMINISTRATOR")) {
-            message.reply(`Você não possui a permissão de \`Administrador\` para poder utilziar este comando.`)
+            message.reply(`Você não possui a permissão de \`Administrador\` para poder utilizar este comando.`)
     } else {
         let embed_1 = new Discord.MessageEmbed()
         .setColor("RANDOM")
@@ -56,12 +56,15 @@ module.exports = {
                                             new Discord.MessageEmbed()
                                             .setColor("RANDOM")
                                             .setTimestamp(new Date)
-                                            .setThumbnail(message.guild.iconURL({ dynamic: true }))
                                             .setFooter(message.guild.name, message.guild.iconURL({ dynamic: true }))
                                             .setAuthor(message.guild.name, message.guild.iconURL({ dynamic: true }))
-                                            .setTitle(titulo)
-                                            .setDescription(desc)
-                                        ] }).catch(e => { msg.edit({ content: `${message.author} Algo deu errado.`, embeds: [] }) })
+                                            .setTitle(`${titulo}`)
+                                            .setDescription(`${desc} @everyone`)
+                                        ] }).then(msg => {
+                                            setTimeout(() => {
+                                                message.reply("@everyone");
+                                            })
+                                        }).catch(e => { msg.edit({ content: `${message.author} Algo deu errado.`, embeds: [] }) })
                                     })
 
                                 })

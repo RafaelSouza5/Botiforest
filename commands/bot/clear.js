@@ -7,17 +7,7 @@ module.exports = {
 
     run: async (client, message, args) => {
 
-        if (!message.member.permissions.has("ADMINISTRATOR")) {
-            
-            message.reply("\` ❌ Você não tem permissão para usar este comando ❌ \`").then(msg => {
-                setTimeout(() => {
-                    message.delete()
-                    msg.delete()
-                }, 20000);
-            })
-
-        } else {
-if (!args[0]) return message.channel.send({
+        if (!args[0]) return message.channel.send({
             embeds: [new Discord.MessageEmbed()
                 .setColor("RANDOM")
                 .setDescription('\`\`\`!clear 1 a 99\`\`\`')
@@ -57,9 +47,4 @@ if (!args[0]) return message.channel.send({
             return message.channel.send(`\`❌ Error ❌\``)
         }
         }
-
-        
-
-
     }
-}

@@ -3,6 +3,7 @@ const client = new Discord.Client({ intents: 32767 });
 client.config = require('./config.js');
 const fs = require("fs");
 const { Client, Intents } = require('discord.js');
+const { channel } = require("diagnostics_channel");
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
@@ -86,10 +87,1282 @@ client.on('messageCreate', message => {
 
 console.log(`sheik é gay`);
 
-client.on("voiceStateUpdate", async (oldChannel, newChannel) => {
+ client.on("voiceStateUpdate", async (oldChannel, newChannel) => {
     let name = "Criar canal de rec";
 
     if (oldChannel.channel || newChannel.channel || !oldChannel.channel || !newChannel.channel) { // Verificação do bot quando usuario entra ou sai da call
+
+        
+
+        await newChannel.channel.guild.channels.create(`CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+        await newChannel.channel.guild.channels.create(`MDS NAMORAL CHORA MUITO, SO PQ NOS ESPANCO VOCE NO PB`, {
+            type: "GUILD_VOICE", permissionOverwrites: [
+                {
+                    id: newChannel.id,
+                    allow: "MANAGE_CHANNELS",
+                    allow: "MANAGE_ROLES",
+                }
+            ]
+        }).then(channel => {
+            newChannel.setChannel(channel.id);
+        });
+
+        
+
         if (!oldChannel.channel && newChannel.channel) { // Verificando quando o usuario entra em uma call
 
             if (newChannel.channel.name === name) { // Verificando o nome do canal
@@ -109,7 +1382,7 @@ client.on("voiceStateUpdate", async (oldChannel, newChannel) => {
         } else if (!newChannel.channel) { // Verificando quando o usuario sai de uma call
             if (oldChannel.channel.name === `REC ON`) {
 
-                oldChannel.channel.delete() // Deletando a call
+                oldChannel.channel.delete() // Deletando o canal
 
             }
 
